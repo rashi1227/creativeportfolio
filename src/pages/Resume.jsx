@@ -1,5 +1,5 @@
 import { Trophy, Target, CheckCircle2, GraduationCap, AtSign, Code, ExternalLink } from 'lucide-react';
-import rashiimg2 from '../assets/rashiimg2.jpg';
+import rashiimg2 from '../assets/rashiimg2.JPG';
 
 const Resume = () => {
   return (

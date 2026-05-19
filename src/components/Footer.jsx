@@ -1,4 +1,4 @@
-import rashiimg2 from '../assets/rashiimg2.jpg';
+import rashiimg2 from '../assets/rashiimg2.JPG';
 
 const Footer = () => {
   return (
