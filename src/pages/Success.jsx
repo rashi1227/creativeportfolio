@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import heroProfile from '../assets/heroProfile.png';
 
 const Success = () => {
   return (
@@ -22,7 +23,7 @@ const Success = () => {
 
           <div className="mt-auto">
             <div className="w-full aspect-[4/3] bg-onyx-neutral mb-4 overflow-hidden">
-              <img src="./src/assets/heroProfile.png" alt="Studio" className=" h-full object-cover opacity-90" />
+              <img src={heroProfile} alt="Studio" className=" h-full object-cover opacity-90" />
             </div>
           </div>
         </div>

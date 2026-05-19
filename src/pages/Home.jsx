@@ -1,4 +1,9 @@
 import { Link } from 'react-router-dom';
+import rashiimg from '../assets/rashiimg.jpg';
+import flutterForward from '../assets/Flutter Forward.png';
+import express from '../assets/Express.webp';
+import cloudJam from '../assets/CloudJam.webp';
+import joinGDSC from '../assets/JoinGDSC.jpg';
 
 const Home = () => {
   return (
@@ -28,7 +33,7 @@ const Home = () => {
             <a href="https://docs.google.com/document/d/1dd1oWsh4XPbrz3S-FNoRKiQvY4G_FjQh1hRmnAGsJlw/edit?usp=sharing" target="_blank">DOWNLOAD<br />RESUME<br />PDF</a>
           </div>
           <img
-            src="./src/assets/rashiimg.jpg"
+            src={rashiimg}
             alt="Portrait"
             className="absolute inset-0 w-full h-full object-cover mix-blend-screen opacity-90 p-1"
           />
@@ -89,14 +94,14 @@ const Home = () => {
               One Codebase, Unified Experience: How GDSC BVP Scaled Cross-Platform Technical Literacy via Flutter Forward
             </div>
             <div className="p-4 bg-taupe border-b border-charcoal h-64 overflow-hidden relative flex items-center justify-center">
-              <img src="./src/assets/Flutter Forward.png" className=" grayscale mix-blend-multiply transition-transform duration-700 group-hover:scale-105 opacity-80" />
+              <img src={flutterForward} className=" grayscale mix-blend-multiply transition-transform duration-700 group-hover:scale-105 opacity-80" />
             </div>
             <div className="p-4 font-mono text-[10px] leading-relaxed flex-grow flex flex-col justify-between">
               <p className="mb-8">
                 How multi-channel promotional roadmaps and structured technical workflows for student workshops revealed key insights - widespread friction for developers entering cross-platform deployment, single-codebase parity as a visual asset catalyst, and collaborative hands-on mentorship as critical to deliver.
               </p>
               <div className="mt-auto">
-                <a href="./src/assets/Flutter Forward.png" target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
+                <a href={flutterForward} target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
                   [VIEW PROJECT]
                 </a>
               </div>
@@ -109,14 +114,14 @@ const Home = () => {
               Cross-Committee Alignment, Seamless Execution: How EXPRESS’22 Intersected Technical and Cultural Networks for an Optimized Student Experience
             </div>
             <div className="p-4 bg-charcoal border-b border-charcoal h-64 overflow-hidden relative flex items-center justify-center">
-              <img src="./src/assets/Express.webp" className=" grayscale mix-blend-multiply transition-transform duration-700 group-hover:scale-105 opacity-80" />
+              <img src={express} className=" grayscale mix-blend-multiply transition-transform duration-700 group-hover:scale-105 opacity-80" />
             </div>
             <div className="p-4 font-mono text-[10px] leading-relaxed flex-grow flex flex-col justify-between">
               <p className="mb-8">
                 In a world where trust is paramount, Truecaller's verified campaigns act as a new standard for business communication. This initiative introduced a seamless, authoritative design.
               </p>
               <div className="mt-auto">
-                <a href="./src/assets/Express.webp" target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
+                <a href={express} target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
                   [VIEW PROJECT]
                 </a>
               </div>
@@ -129,14 +134,14 @@ const Home = () => {
               Democratizing Cloud & AI: How GDSC BVP Designed a Scaled Learning Campaign for the Google Cloud Study Jam
             </div>
             <div className="p-4 bg-charcoal border-b border-charcoal h-64 overflow-hidden relative flex items-center justify-center">
-              <img src="./src/assets/CloudJam.webp" className="w-2/3 grayscale contrast-125 transition-transform duration-700 group-hover:scale-105 opacity-80" />
+              <img src={cloudJam} className="w-2/3 grayscale contrast-125 transition-transform duration-700 group-hover:scale-105 opacity-80" />
             </div>
             <div className="p-4 font-mono text-[10px] leading-relaxed flex-grow flex flex-col justify-between">
               <p className="mb-8">
                 How multi-week digital education roadmaps and gamified progress tracking for Cloud and Generative AI foundational tracks revealed key insights — initial technical friction in cloud sandbox environments, milestone-based skill badges as a major driver for sustained student retention, and continuous community-led troubleshooting frameworks being critical to deliver.
               </p>
               <div className="mt-auto">
-                <a href="./src/assets/CloudJam.webp" target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
+                <a href={cloudJam} target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
                   [VIEW PROJECT]
                 </a>
               </div>
@@ -149,14 +154,14 @@ const Home = () => {
               Scaling the Creative Ecosystem: How GDSC BVP Designed a Unified Visual Campaign for the Annual Community Recruitment Drive
             </div>
             <div className="p-4 bg-charcoal border-b border-charcoal h-64 overflow-hidden relative flex items-center justify-center">
-              <img src="./src/assets/JoinGDSC.jpg" className="w-2/3 grayscale contrast-125 transition-transform duration-700 group-hover:scale-105 opacity-80" />
+              <img src={joinGDSC} className="w-2/3 grayscale contrast-125 transition-transform duration-700 group-hover:scale-105 opacity-80" />
             </div>
             <div className="p-4 font-mono text-[10px] leading-relaxed flex-grow flex flex-col justify-between">
               <p className="mb-8">
                 How system-wide talent acquisition roadmaps and structured brand-led outreach for annual student onboarding revealed key insights — cognitive friction for applicants navigating diverse technical and creative divisions, high-contrast visual layouts and single-point digital entry (QR execution) as primary drivers for scaling application submission volumes, and a clear, highly responsive candidate funnel being critical to deliver.
               </p>
               <div className="mt-auto">
-                <a href="./src/assets/JoinGDSC.jpg" target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
+                <a href={joinGDSC} target='_blank' rel='noreferrer' className="uppercase tracking-widest border-b border-charcoal hover:text-terracotta transition-colors pb-1">
                   [VIEW PROJECT]
                 </a>
               </div>

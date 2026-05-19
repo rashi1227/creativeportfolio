@@ -1,3 +1,5 @@
+import rashiimg2 from '../assets/rashiimg2.jpg';
+
 const Footer = () => {
   return (
     <footer className="w-full border-t border-charcoal bg-taupe grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-charcoal">
@@ -9,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4 items-start">
           <div className="w-20 h-24 border border-charcoal shrink-0">
-            <img src="./src/assets/rashiimg2.jpg" alt="Profile" className="w-full h-full object-cover opacity-80" />
+            <img src={rashiimg2} alt="Profile" className="w-full h-full object-cover opacity-80" />
           </div>
           <p className="font-mono text-xs leading-relaxed max-w-[250px] mt-2 italic opacity-80">
             "If you've made it this far, your patience deserves a medal, or at least a coffee on me."

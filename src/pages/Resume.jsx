@@ -1,4 +1,5 @@
 import { Trophy, Target, CheckCircle2, GraduationCap, AtSign, Code, ExternalLink } from 'lucide-react';
+import rashiimg2 from '../assets/rashiimg2.jpg';
 
 const Resume = () => {
   return (
@@ -31,7 +32,7 @@ const Resume = () => {
             </div>
             <div className="aspect-[3/4] bg-taupe overflow-hidden border border-charcoal">
               <img
-                src="./src/assets/rashiimg2.jpg"
+                src={rashiimg2}
                 alt="Rashi Aggarwal Profile"
                 className="w-full h-full object-cover"
               />

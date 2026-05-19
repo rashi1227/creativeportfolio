@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import heroProfile from '../assets/heroProfile.png';
 
 const WEB3FORMS_ACCESS_KEY = "9d7b363a-23a5-4a01-9352-8a3f27fcba6f";
 
@@ -62,7 +63,7 @@ const Contact = () => {
 
           <div className="mt-auto">
             <div className="w-full aspect-[4/3] bg-onyx-neutral mb-4 overflow-hidden">
-              <img src="./src/assets/heroProfile.png" alt="Studio" className=" h-full object-cover opacity-90" />
+              <img src={heroProfile} alt="Studio" className=" h-full object-cover opacity-90" />
             </div>
           </div>
         </div>
