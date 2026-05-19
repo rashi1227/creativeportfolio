@@ -4,6 +4,7 @@ import flutterForward from '../assets/Flutter Forward.png';
 import express from '../assets/Express.webp';
 import cloudJam from '../assets/CloudJam.webp';
 import joinGDSC from '../assets/JoinGDSC.jpg';
+import ecommerce from '../assets/ecommerce.png';
 
 const Home = () => {
   return (
@@ -53,9 +54,9 @@ const Home = () => {
           {/* Left Mockup */}
           <div className="w-full lg:w-1/2 bg-taupe p-8 border border-charcoal flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=800&auto=format&fit=crop"
+              src={ecommerce}
               alt="App Mockup"
-              className="w-2/3 h-auto grayscale contrast-125 shadow-2xl"
+              className=" h-auto grayscale contrast-125 shadow-2xl"
             />
           </div>
           {/* Right Text */}

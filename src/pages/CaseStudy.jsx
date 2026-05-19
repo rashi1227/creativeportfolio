@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ecommerce from '../assets/ecommerce.png';
 
 const CaseStudy = () => {
   return (
@@ -7,11 +8,13 @@ const CaseStudy = () => {
       {/* Top Banner Image */}
       <section className="px-6 md:px-12 py-8 md:py-16">
         <div className="w-full aspect-[21/9] md:aspect-[2.5/1] border border-charcoal bg-charcoal overflow-hidden relative flex items-center justify-center p-8">
-          <img
-            src="https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=1600&auto=format&fit=crop"
-            alt="Hero Mockup"
-            className="w-[90%] md:w-3/4 grayscale contrast-125 mix-blend-screen opacity-90 shadow-2xl"
-          />
+          <a href="https://www.figma.com/design/z6sqkqYN8W2SLQ6IrG3avM/E-commerce-Website-Desktop?node-id=0%3A1&t=uAB0LSYmCRWDDP5O-1" target='_blank'>
+            <img
+              src={ecommerce}
+              alt="Hero Mockup"
+              className="h-full grayscale contrast-125 mix-blend-screen opacity-90 shadow-2xl"
+            />
+          </a>
         </div>
       </section>
 
